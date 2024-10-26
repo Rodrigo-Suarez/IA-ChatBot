@@ -10,10 +10,6 @@ TOKEN = os.getenv("discord_api_key")
 #Prefijo del bot
 prefix = "$"
 
-#ID del canal del Bot
-channel_id = 1299455211064000532
-
-
 # Intents son necesarios para algunas características del bot
 intents = discord.Intents.default()
 intents.message_content = True  # Si necesitas leer el contenido de los mensajes
